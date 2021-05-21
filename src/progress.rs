@@ -28,10 +28,7 @@ pub struct Progress<'a> {
 
 impl<'a> Progress<'a> {
     pub fn new(id: usize, index: &'a Index<'a>) -> Self {
-        Self {
-            id: id,
-            index: index,
-        }
+        Self { id, index }
     }
 
     ///
